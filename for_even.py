@@ -11,4 +11,5 @@ for i in l:
 print(a1)
 print(a2)
 
+
 #print only even no:
