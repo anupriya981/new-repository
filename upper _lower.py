@@ -4,6 +4,8 @@ if case=='up_low':
     print(sen.lower())
 if case=='low_up':
    print(sen.upper())
+if case=='cap':
+    print(sen.capitalize())
 
 
 
