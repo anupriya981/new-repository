@@ -1,40 +1,21 @@
-vowel=['a','e','i','o','u']
-v2=[]
-v3=[]
-stri=input('enter the string:')
-for i in stri:
-    print(i)
-    if i in vowel:
-    # v2.append(i)
-      print(vowel)
-    
-# print(n)
+# vowel=['a','e','i','o','u']
+# stri=input('enter the string:')
+# for i in stri:
+#   if vowel in i:
+#     print('yes')
+# else:
+#   print('no')
 
-# if vowel==v2:
-#     print('present')
-# else:
-#      print('no')      
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-       
-#     if i in vowel:
-#         v2.append()
-#         print('present')
-# else:
-#      print('no')
-    #     v2.append(i)
-    #     print(v2)
-        
+
+
+
+
+str=input('enter the string:')
+count=0
+a1=[]
+for i in str:
+   if (i=='a') or (i=='e') or (i=='i') or (i=='o') or (i=='u'):
+     a1.append(i)
+else:
+          print('no')
+   
