@@ -1,3 +1,12 @@
+# ABCDE
+# FGHIJ
+# KLMNO
+# PQRST
+# UVWXY
+#                                           PRINT ABC PATTERN IN PYHON
+
+
+
 row=5
 count=0
 for i in range(row):
