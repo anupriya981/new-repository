@@ -1,14 +1,19 @@
 vow=['a','e','i','o','u']
 l1=[]
 i=0
-char='education'
+char=input('enter the string:')
 while i<len(char):
     cha=(char[i])
     i+=1
-    if cha==vow:
-        l1.append((cha))
+    if cha in vow:
+        l1.append(cha)
+print(l1)
 
-        print(l1)
-else:
-    print('there is no vowals')
-        
+
+
+
+
+#to find the vowals in the string
+
+
+
