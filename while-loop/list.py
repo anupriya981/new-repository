@@ -12,4 +12,12 @@ print(list)
 
 
 
+# #a set of string convert in list
+
+# l=[]
+# i=0
+# while i<6:
+#     a = input("enter:")
+#     l.append(a)
+#     i+=1
 
