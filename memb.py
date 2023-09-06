@@ -1,5 +1,0 @@
-name=input("enter the name:")
-char=input("enter the charector:")
-print(name)
-print(char in name)
-print(char not in name)
