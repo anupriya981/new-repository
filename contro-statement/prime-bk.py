@@ -1,3 +1,10 @@
+#pending
+
+
+
+
+
+
 # list=[]
 # prime_num=[]
 # n=1
@@ -21,15 +28,16 @@
 
 num=int(input('enter the value:'))
 if num>1:
-   for i in range(2,num):
+  i=2
+  while i<=num%2:
+      
       if num%i==0:
-       break
-print("not prime")
-#       else: 
-#          print('prime')
+         break
+         print("not prime")
+      elif print('prime'):
             
-# else:
-#       print("number is less than 1") 
+else
+      print("number is less than 1") 
 
       
          
