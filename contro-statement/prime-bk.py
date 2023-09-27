@@ -25,20 +25,20 @@
 
 
 
-
 num=int(input('enter the value:'))
 if num>1:
   i=2
   while i<=num%2:
-      
-      if num%i==0:
-         break
-         print("not prime")
-      elif print('prime'):
-            
-else
-      print("number is less than 1") 
+   if num%i==0:
+         
+      print("not prime")
+   elif print('prime'):
+else:
+   print("number is less than 1")
 
       
-         
+
+
+
+
    
