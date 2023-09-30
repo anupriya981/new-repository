@@ -1,10 +1,10 @@
-case=input('enter the case:')
+case=int(input('1:up_low\n2:low_up\n3:cap\nenter the case:'))
 sen=(input("enter the number in lower case:"))
-if case=='up_low':
+if case==1:
     print(sen.lower())
-if case=='low_up':
+if case==2:
    print(sen.upper())
-if case=='cap':
+if case==3:
     print(sen.capitalize())
 
 

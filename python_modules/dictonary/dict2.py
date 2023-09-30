@@ -16,15 +16,3 @@ print(a)
 print('  ')#space
 a['name']='user'#update
 print(a)
-
-
-
-
-
-
-
-
-#dictionary-
-#no duplicate value
-#allow multiple data type
-#modifications-add,delete,update

@@ -14,7 +14,6 @@ while i<len(value):
     if values>avg:
         print('great-',values)
         break
-        # i+=1
     else:
          continue
 
