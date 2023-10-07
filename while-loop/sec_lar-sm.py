@@ -3,11 +3,18 @@
 # for num in range(limit):
 #     num=int(input('enyter numbers'))
 #     my_list.append(num)
-my_list=[2,1,6,4,3,8]
-i=0
-my_list.sort()
-while i<len(my_list):
-    values=(my_list[i])
-    i+=1
-    if i <list:
+# i=0
+# my_list.sort()
+# while i<len(my_list):
+#      values=(my_list[i])
+#      i+=1
+#      print()
+
+
+
+my_list=[1,3,2,9]
+for i in my_list:
+    if i<my_list:
         print(i)
+ 
+

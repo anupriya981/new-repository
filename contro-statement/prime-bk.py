@@ -32,7 +32,8 @@ if num>1:
    if num%i==0:
          
       print("not prime")
-   elif print('prime'):
+   else:
+      print('prime')
 else:
    print("number is less than 1")
 
