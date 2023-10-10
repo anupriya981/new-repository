@@ -1,4 +1,24 @@
 import banking
-print('baking details')
-banking.user_details()
-print(user_details)
+choice='y'
+while choice=='y' :
+    choice=int(input('1:continue-y\n2:create bank_account\n3:view accound_status\n4:account balance\n5:exit-exit\nenter your choice:'))
+    if choice==5:
+        print('close the details')
+        break
+    if choice==2:
+        print('create an account')
+        banking.details()
+    if choice==3:
+        banking.view_account()
+    if choice==4:
+        option=input('credited/debited :')
+        if option=='credited':
+            banking.credited_amount()
+        elif option=='debited':
+            banking.debited_amount()
+    else:
+        print('you have entered a invalid choice')
+        choice=input("Do you want to continue  y/n ")
+
+  
+    
