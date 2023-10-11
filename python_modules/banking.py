@@ -18,22 +18,27 @@ def details():
 
     account_details.append(user_details.copy())
     
-    
 def view_account():
     print(user_details)
 
 def credited_amount():
     credit_amound=int(input('enter credited amound:'))
-    # for i in account_details:
-    for i in range(credit_amound):
-        balance=i['balance']
-    balance=user_details['balance']
-    balance+=credit_amound
+    for i in account_details:
+        # print(i['balance'])
 
+        balance=i['balance']
+
+    # balance=user_details['balance']
+        balance+=credit_amound
+    user_details.update({'balance':balance+credit_amound})
     print(balance)
 
 def debited_amount():
     debit_amound=int(input('enter debited amound:'))
-    balance-=debit_amound
+    for j in account_details:
+        
+        balance=j[balance]
+        balance-=debit_amound
+    user_details.update({'balance':balance-debited_amount})
     print(balance)
 

@@ -14,10 +14,10 @@ while choice=='y' :
         option=input('credited/debited :')
         if option=='credited':
             banking.credited_amount()
-        elif option=='debited':
-            banking.debited_amount()
+            choice=input("Do you want to continue  y/n ")        
+        if option=='debited':
+                banking.debited_amount()
     else:
-        print('you have entered a invalid choice')
         choice=input("Do you want to continue  y/n ")
 
   
