@@ -6,6 +6,7 @@ while choices=='y' :
     if choice==2:
         print('create an account')
         banking.details()
+        
     elif choice==3:
         banking.view_account()
     elif choice==4:
