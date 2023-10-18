@@ -1,13 +1,13 @@
 user_details={}
 balance=0
 account_details=[]
-account_num=[]
+account_num=65843691720
 def details():
     user_name=input('enter your name:')
     user_adress=input('enter your adress:')
     user_age=int(input('enter your age:'))
     user_No=int(input('enter your contact number:'))
-    account_no=65843691720
+    account_no=account_num
     
     
 
@@ -17,10 +17,11 @@ def details():
     user_details['user_No']=user_No
     user_details['account_no']=account_no
     user_details['balance']=balance
-  
 
+
+    account_no+=1
     account_details.append(user_details.copy())
-    account_num.append(account_no)
+    
     
 def view_account():
     print(user_details)
@@ -31,13 +32,17 @@ def credited_amount():
     credit_amound=int(input('enter credited amound:'))
     bank_account=account_details.copy()
     bank_acc=[]
+    print(account_num)
     for i in bank_account:
-        bank_acc.append(i['account_num'])
+        bank_acc.append(account_num)
+    print(bank_acc)
     if conf_acc_no in bank_acc:
 
         for i in bank_account:
+            print('accno is',i['account_num'])
             if i[account_num]==conf_acc_no:
                 balance=i['balance']
+                print(balance)
                 i.update({'balance':balance+credit_amound})
 
             else:
