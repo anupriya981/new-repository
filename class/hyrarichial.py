@@ -10,4 +10,4 @@ class C(A,B):
 tottal=C()
 tottal.insta()
 tottal.fb()
-tottal.titwer
+tottal.titwer()
