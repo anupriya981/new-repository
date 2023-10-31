@@ -1,6 +1,5 @@
-teachers_list=['nimisha','arjun','arnouve','yadhav']
 details={}
-    
+   
 
 def students():
     stu_clss=int(input('enter the class of student:'))
@@ -11,4 +10,6 @@ def students():
     details['stu_roll']=stu_roll
     details['stu_name']=stu_name
     print(details)
+    print()
+
 
