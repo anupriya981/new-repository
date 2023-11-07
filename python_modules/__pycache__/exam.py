@@ -1,31 +1,52 @@
-# data={}
-# phy=int(input('physics:'))
-# che=int(input('chemistry:'))
-# mat=int(input('maths:'))
-# eng=int(input('english:'))
-# lan=int(input('language:'))
+mark=[]
+phy=int(input('physics:'))
+che=int(input('chemistry:'))
+# mark.apppend(che)
+mat=int(input('maths:'))
+# mark.apppend(mat)
+eng=int(input('english:'))
+# mark.apppend(eng)
+lan=int(input('language:'))
+mark.append(phy)
+mark.append(che)
+mark.append(mat)
+mark.append(eng)
+mark.append(lan)
 
 
-mark=[65,91,64,50,71]
 
+
+
+
+
+
+
+
+
+# mark=[82,94,55,68,66]
 def student(name):
     print(name)
 name=input('name:')
 
-def average(student):
+def average():
     sum_mark=sum(mark)
+#     print(sum_mark)
     len_mark=len(mark)
     global avg_mark
-    avg_mark=sum_mark%len_mark
-    print(avg_mark)
+    avg_mark=sum_mark/len_mark
+#     print(avg_mark)
+average()
+print(name)
+print('average mark is',avg_mark)
 
-def calculation(average):
-    if avg_mark>=80:
-        print('grad-A mark-',avg_mark)
-    elif avg_mark>=60 and avg_mark<=80:
-        print('grad-B mark-',avg_mark)
-    elif avg_mark>=50 and avg_mark<=60:
-        print('grad-c mark-',avg_mark)
-    else:
-        print('fail mark-',avg_mark)
+
+if avg_mark>=80:
+        print('grad-A ')
+elif avg_mark>=60 and avg_mark<=80:
+       print('grad-B ')
+elif avg_mark>=50 and avg_mark<=60:
+       print('grad-c ',)
+else:
+       print('fail ',)
+
 
