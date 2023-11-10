@@ -27,8 +27,8 @@ try:
     emp_cate=emp_dict['category']
     print(emp_cate)
 
-Except KeyError as ke:
-    print('not found',ke)
+except KeyError as ke:
+    print('key not found in employee dict:',ke)
     
 
 
