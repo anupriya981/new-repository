@@ -7,8 +7,8 @@
 
 
 
-# limit=int(input('enter the limit:'))
-# for i in range(0,limit+1,2):
-#     for j in range(0,i,2):
-#         print(j,end='')
-#     print()
+limit=int(input('enter the limit:'))
+for i in range(0,limit+1,2):
+    for j in range(0,i,2):
+        print(j,end='')
+    print()

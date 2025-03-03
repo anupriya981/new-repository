@@ -10,12 +10,8 @@ a.remove(2)
 print(a)
 
 
-
-
-
-
-
 #not allow duplicate value
 #unorderd&unpaired
 #allow multiple data type
 #add,remove,&no replacable
+#mutable

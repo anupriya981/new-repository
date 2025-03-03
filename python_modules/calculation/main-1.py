@@ -6,14 +6,11 @@ choice=int(input('enter the choice :'))
 if choice==1:
     master_1.sum()
    
-
 if choice==2:
     master_1.product()
 
-
 if choice==3:
     master_1.difference() 
-
 
 if choice==4:
     master_1.squre()

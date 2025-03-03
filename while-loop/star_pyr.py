@@ -1,5 +1,11 @@
+#    *
+#    **
+#    ***
+#    ****
+#    *****
 
 
+#using option
 choice='y'
 i=1
 while choice=='y':
@@ -10,6 +16,18 @@ while choice=='y':
     star=int(input('enter the limit:'))
     for i in range(star+1):
         print(i*'*')
+        
+#just using while loop not option
+    
+    
+i=1   
+star=int(input('enter the limit:'))
+while i<star:
+    print(i*'*')
+    i+=1   
+    
+    
+    
 
 #output
                                     # continue Y/N:y

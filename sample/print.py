@@ -1,7 +1,3 @@
-# print("print(hello)")
-
-
-
 balance=50
 # amound=int(input('amound:'))
 # balance-=amound
@@ -16,7 +12,8 @@ if option=='credited':
     print(balance)
 elif option=='debited':
     debit_amound=int(input('enter debited amound:'))
-    balance-=debit_amound
-    print(balance)
-     
-    # if choice==5:
+    if balance<debit_amound:
+        print('inefient balane..........')
+    else:
+        balance-=debit_amound
+        print(balance)

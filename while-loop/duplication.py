@@ -17,6 +17,7 @@ while i<len(str):
         ori.append(stri)
     i+=1
 print(dup)
+print(ori)
 
 
 

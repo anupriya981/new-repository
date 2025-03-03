@@ -1,29 +1,27 @@
 mark=[]
+marks={}
 phy=int(input('physics:'))
 che=int(input('chemistry:'))
-# mark.apppend(che)
 mat=int(input('maths:'))
-# mark.apppend(mat)
 eng=int(input('english:'))
-# mark.apppend(eng)
 lan=int(input('language:'))
+#using list method
 mark.append(phy)
 mark.append(che)
 mark.append(mat)
 mark.append(eng)
 mark.append(lan)
 
+#using ditionary method
+
+marks['physis']=phy
+marks['he']=che
+marks['mat']=mat
+marks['eng']=eng
+marks['lan']=lan
+print(marks)
 
 
-
-
-
-
-
-
-
-
-# mark=[82,94,55,68,66]
 def student(name):
     print(name)
 name=input('name:')

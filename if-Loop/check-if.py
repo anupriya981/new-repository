@@ -6,9 +6,4 @@ elif (char>='0' and char<='9'):
 else :
     print(char,'special charector')
 
-
-
-
-
-
 #write a pgm to check whether a charector is an alphabet ,digit or special cherector

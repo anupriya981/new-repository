@@ -1,7 +1,7 @@
 value=[]
 limit=int(input('enter the limit'))
+num=int(input('enter the number:'))
 for num in range(1,limit):
-    num=int(input('enter the number:'))
     value.append(num)
 i=0
 sum=sum(value)

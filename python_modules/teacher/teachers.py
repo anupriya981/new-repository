@@ -11,5 +11,9 @@ def students():
     details['stu_name']=stu_name
     print(details)
     print()
+def teh():
+    teachers_list=['1.nimisha','2.arjun','3.arnouve','4.yadhav']
+    
+    
 
 

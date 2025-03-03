@@ -6,7 +6,7 @@ if (num1>num2 and num2>num3 ):#num1 $num2 are big
 elif (num2>num3 or num3>num1):#num2$num3 are big
     print(num2+num3)
 else:
-    print(num1+num3)
+    print(num1-num3)
         
 
 

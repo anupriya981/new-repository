@@ -6,14 +6,16 @@
 my_list=[2,1,6,4,3,8]
 i=0
 my_list.sort()
+# print(my_list)
 while i<len(my_list):
-    values=(my_list[i])
+    # values=(my_list[i])
     i+=1
-    if i>=i+1:
+    if i<=i+1:
         swap=i
         i=i+1
         print(i)
     else:
+        print('someting')
         break
 
         

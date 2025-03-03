@@ -11,16 +11,17 @@ s="hello"
 # 0,1,2,3,4,5 <6
 i = 0
 while i<len(s):
-    print(s[i])
+    print(i)
     i+=1
 
 
 
-# #a set of string convert in list
+#a set of string convert in list
 
-# l=[]
-# i=0
-# while i<6:
-#     a = input("enter:")
-#     l.append(a)
-#     i+=1
+l=[]
+i=0
+while i<6:
+    a = input("enter:")
+    l.append(a)
+    i+=1
+print(l)

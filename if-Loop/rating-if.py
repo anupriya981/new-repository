@@ -1,11 +1,13 @@
 grade=input('enter the grade:')
-if grade=="e":
+if grade=="a":
     print('excellent')
-if grade=='v':
+if grade=='b':
     print('very good')
-if grade=='g':
+if grade=='c':
     print('good')
-if grade=='a':
+if grade=='d':
     print('average')
+if grade=='e':
+    print('not good')    
 if grade=='f':
     print('fall')

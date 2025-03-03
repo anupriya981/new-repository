@@ -1,6 +1,0 @@
-string=input("enter the string:")
-print(string)
-print(string[0])
-print(string.startswith("a"))
-print(string.endswith("b"))
-print(string.replace("a","b"))
